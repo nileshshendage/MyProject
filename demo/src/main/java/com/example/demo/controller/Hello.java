@@ -20,7 +20,7 @@ public class Hello {
 	@GetMapping("hello9")  
 	public String hello()   
 	{  
-	return "message fetch successfully";  
+	return "message fetch successfully...... NILESH";  
 	}  
 	
 	
@@ -28,7 +28,7 @@ public class Hello {
 	@GetMapping("G9")
 	public String myOwnMethod() 
 	{
-		return "I am now checking this with postman";
+		return "I am now checking this with postman.....";
 		
 	}
 	
